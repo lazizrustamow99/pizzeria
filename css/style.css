@@ -1,0 +1,231 @@
+@import "../media/media";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.mh-100vh {
+    min-height: 100vh;
+}
+:root {
+    --col-12: calc(100% / 12 * 12)
+}
+/* ==========================header========================== */
+.header {
+    background: url(../img/header_bg.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.header__logo {
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.nav__list_link1 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+}
+.nav {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.nav__list_link2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    padding: 18px 26px;
+    background: #68bf3b;
+    border-radius: 25px;
+    margin-left: 50px;
+    color: #ffffff;
+}
+.header__description {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 13px;
+    color: #ffffff;
+}
+.header__title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    color: #ffffff;
+}
+.header__price {
+    font-weight: 400;
+    font-size: 18px;    
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.header__button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+    padding: 0 45px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    background: #68bf3b;
+    border-radius: 25px;
+    margin-top: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+/* ==========================/header========================== */
+/* ==========================main============================= */
+.content1__title {
+    color: #68bf3b;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 26px;
+    margin-bottom: 65px;
+}
+.content1__description {
+    line-height: 37px;
+    color: #bdbdbd;
+    font-size: 18px;
+}
+.content1__name {
+    font-weight: 700;
+    font-size: 24px;
+    color: #bdbdbd;
+    line-height: 22px;
+    margin-right: 60px;
+}
+.content1 {
+    padding-top: 80px;
+    padding-bottom: 88px;
+}
+.content1__box {
+    padding-left: 30px;
+}
+.content2__card {
+    margin-bottom: 50px;
+}
+.content2__bg {
+    background: url(../img/Слой\ 1.png);
+    width: 350px;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.content2__card_title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #a6a6a6;
+}
+.content2__card1_box {
+    margin-left: 30px;
+}
+.content2__description {
+    color: #a6a6a6;
+    font-size: 14px;
+    line-height: 27px;
+}
+.content2__title {
+    font-weight: 700;
+    color: #68bf3b;
+    font-size: 36px;
+    margin-bottom: 47px;
+}
+.content2__price {
+    font-weight: 700;
+    color: #a6a6a6;
+    font-size: 30px;
+    text-align: end;
+}
+.span2 {
+    font-weight: 300;
+    font-size: 18px;
+}
+.content2__button {
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    display: inline-block;
+    background: #68bf3b;
+    line-height: 12px;
+    padding: 18px 32px;
+    border-radius: 25px;
+    margin-top: 27px;
+}
+.content2 {
+    padding-bottom: 100px;
+}
+.content3__img1{
+    background: url(../img/Слой\ 2-1.png) no-repeat center center;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    
+}
+.content3__img2{
+    background: url(../img/Слой\ 3-1.png) no-repeat center center;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    
+}
+.content3__img3{
+    background: url(../img/Слой\ 4-1.png) no-repeat center center;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    
+}
+.content3__title {
+    font-weight: 700;
+    color: #a6a6a6;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.content3__description  {
+    font-weight: 400;
+    font-size: 16px;
+    color: #a6a6a6;
+    
+}
+.content3__card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content3 {
+    padding-bottom: 100px;
+}
+
+/* =========================/main============================= */
+/* =========================footer============================ */
+.footer {
+    background: #000000;
+    padding-bottom: 55px;
+}
+.footer__description {
+    font-weight: 100;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+/* ========================/footer============================ */
